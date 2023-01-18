@@ -1,0 +1,55 @@
+
+
+access token: "cdbff323193c88d1e6a6fee67db21410e39f569ae3331de5b83e33f80b544495"
+
+api
+https://simple-books-api.glitch.me/ 
+
+create token   
+https://simple-books-api.glitch.me/api-clients/    post
+
+status of books
+https://simple-books-api.glitch.me/status/  get
+
+list of books
+https://simple-books-api.glitch.me/books/    get
+
+single books
+https://simple-books-api.glitch.me/books/1   get
+
+
+orders books  //token dite hbe authoriazation a bearer token
+https://simple-books-api.glitch.me/orders    post
+{
+    "bookId":1,
+    "customerName":"arif"
+}
+
+"orderId": "TSeHwUtTZ4Zs0rnDy_yra"
+
+
+get all the orders  authentication needed
+https://simple-books-api.glitch.me/orders    get
+
+
+get single order  authentication needed
+https://simple-books-api.glitch.me/orders/TSeHwUtTZ4Zs0rnDy_yra      get 
+
+
+update order
+https://simple-books-api.glitch.me/orders/TSeHwUtTZ4Zs0rnDy_yra      patch
+
+{
+    "customerName":"atif hasan"
+}
+
+
+Delete order
+https://simple-books-api.glitch.me/orders/TSeHwUtTZ4Zs0rnDy_yra    delete
+
+
+
+
+
+
+
